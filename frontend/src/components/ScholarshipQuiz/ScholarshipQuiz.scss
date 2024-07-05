@@ -1,0 +1,16 @@
+@import "../../assets/scssVariable.scss";
+
+.ScholarshipQuiz {
+    border: 1px solid $font-grey;
+
+    .main-content {
+
+        .question-container {
+            flex: 1;
+        }
+
+        .tile-container {
+            flex: 1;
+        }
+    }
+}

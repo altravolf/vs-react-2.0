@@ -1,0 +1,30 @@
+$primary-color: #03045e;
+$primary-color-2: #030577;
+$secondary-color: #00003d;
+$font-grey: #37423b;
+$white: #fff;
+$black: #000;
+$matte-black: #28282B;
+$grey: #eef0ef;
+$grey-2: #f9faf9;
+$light-blue: #e7f3fe;
+
+// new colors
+$color-1: #941b0c;
+$color-2: #014f86;
+$color-3: #ff499e;
+$color-4: #f17134;
+$successful-color: #02682a;
+$danger-color: #941b0c;
+
+
+// mixin
+$transition-time: 0.2s;
+
+@mixin transition-in {
+    transition: $transition-time ease-in;
+}
+
+@mixin transition-out {
+    transition: $transition-time ease-out;
+}

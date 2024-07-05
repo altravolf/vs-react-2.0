@@ -1,0 +1,55 @@
+@import "../../assets/scssVariable.scss";
+
+.Header {
+
+    .h1-setup {
+        font-size: 0;
+    }
+
+    background-color: lighten($grey-2, 3%);
+    transition: background-color 0.3s ease,
+    0.3s ease;
+    // @include transition-out;
+
+    .border-bottom {
+        border-bottom-color: $light-blue !important;
+    }
+
+    &.scrolled {
+        background-color: rgba($grey, $alpha: 1);
+
+        .logo {
+            width: 5rem;
+            @include transition-in;
+        }
+
+        .border-bottom {
+            border-bottom-color: darken($grey, 2%) !important;
+        }
+
+        a {
+            padding: 0;
+        }
+    }
+
+    .logo {
+        width: 6.2rem;
+        display: inline-block;
+    }
+
+    .toggle-bar {
+        cursor: pointer;
+        border: 2px solid $primary-color;
+        padding: .3rem .7rem;
+        border-radius: 4px;
+        @include transition-in;
+
+        &:active {
+            box-shadow: 0px 1px 9px 1px $primary-color;
+            @include transition-out;
+        }
+    }
+
+
+
+}

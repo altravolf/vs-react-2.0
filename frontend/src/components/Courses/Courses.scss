@@ -1,0 +1,25 @@
+@import "../../assets/scssVariable.scss";
+
+.Courses {
+
+
+    .card-body {
+        .card-type {
+            color: $white;
+            background-color: $primary-color;
+            padding: 0.2rem 0.8rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .card-price {
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .card-title {
+            cursor: pointer;
+        }
+
+    }
+}
